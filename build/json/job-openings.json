@@ -1,0 +1,55 @@
+{
+  "job_categories": [
+    "Sales, Marketing and Business Development",
+    "Information Technology",
+    "Human Resource"
+  ],
+  "job_openings": {
+    "Information Technology": [
+      {
+        "title": "Front End Developer/ UI Developer/ UI Designer",
+        "experience": "2-4 years",
+        "location": "Mysore",
+        "description": "Any graduate who loves technology and likes to learn all the time. The candidate must have minimum of 2 years of experience in UI Design and will be responsible for converting high fidelity designs into working frontend of website using HTML, CSS and jQuery and maintaining the frontend of the developed websites.",
+        "apply_link": "https://www.learnwithflip.com/careers/ui-developer",
+        "jd_link": "https://www.learnwithflip.com/FLIP/Careers_Resume/IT_UI_Developer_FLIP2018.pdf"
+      }
+    ],
+    "Sales, Marketing and Business Development": [
+      {
+        "title": "Manager B2B Sales",
+        "experience": "3-6 years",
+        "location": "Mumbai",
+        "description": "You will be responsible to spearhead FLIP's business growth in the B2B Segments, therefore you should have proven experience in sales (Preferred – B2B Sales), post MBA.",
+        "apply_link": "https://www.learnwithflip.com/careers/manager-b2b-sales",
+        "jd_link": "https://www.learnwithflip.com/FLIP/Careers_Resume/Manager-Sales-JD.pdf"
+      },
+      {
+        "title": "Digital Marketing Manager",
+        "experience": "2-4 years",
+        "location": "Mysore",
+        "description": "You will have the ownership to increase traffic and generate leads for all target segments – via SEM, Content Marketing, etc. So, if you are a creative, driven and experienced Digital Marketing professional, wanting a high growth role with independent responsibility and great learning, then this is your CHANCE.",
+        "apply_link": "https://www.learnwithflip.com/careers/digital-marketing-manager",
+        "jd_link": "https://www.learnwithflip.com/FLIP/Careers_Resume/FLIP-DIGI-MKT-MNG-SEP-18.pdf"
+      },
+      {
+        "title": "Business Lead - Educational Institutions",
+        "experience": "2-4 years",
+        "location": "Mysuru/Bengaluru",
+        "description": "An unparalleled opportunity to lead our B2I (Educational Institutions) vertical. Its an entrepreneurial role where you will get to grow your team as well as revenue for the company",
+        "apply_link": "https://www.learnwithflip.com/careers/business-lead-b2i",
+        "jd_link": "https://www.learnwithflip.com/FLIP/Careers_Resume/Business-Lead-EI.pdf"
+      }
+    ],
+    "Human Resource": [
+      {
+        "title": "Manager & Lead - Human Resources",
+        "experience": "3-4 years",
+        "location": "Mysuru",
+        "description": "As an HR-Manager, you will manage and lead the entire HR function and successfully execute the Annual HR Plan, contributing towards the growth of the company.",
+        "apply_link": "https://www.learnwithflip.com/careers/manager-hr",
+        "jd_link": "https://www.learnwithflip.com/FLIP/Careers_Resume/HR/HR_Manager_Oct18.pdf"
+      }
+    ]
+  }
+}

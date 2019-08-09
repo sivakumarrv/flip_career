@@ -1,0 +1,430 @@
+/* FLIP Color */
+$flip-blue: #006699;
+$flip-green: #009933;
+$flip-light-green: #00c9c9;
+$flip-red: #fe696b;
+$flip-yellow: #f9e019;
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #555555;
+$light-grey: #eeeeee;
+$smokewhite: #f5f5f5;
+$nav-bg-color: #e8eff3;
+$lengthy-button-padding: calc(1.75em - 1px);
+
+/* @Font Face */
+/* Poppins Regular */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+    url(../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+/* Poppins Medium */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+    url(../fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+/* Poppins SemiBold */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+    url(../fonts/Poppins/Poppins-SemiBold.ttf) format('truetype');
+}
+/* Poppins Bold */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('Poppins-Bold'),
+    url(../fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+/* EO @Font Face End */
+
+/* Common Styling */
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+.has-text-weight-medium {
+  font-weight: 500 !important;
+}
+%mt-1rem {
+  margin-top: 1rem !important;
+}
+%mb-1rem {
+  margin-bottom: 1rem !important;
+}
+%mt-2rem {
+  margin-top: 2rem !important;
+}
+%mb-2rem {
+  margin-bottom: 2rem !important;
+}
+%mt-3rem {
+  margin-top: 3rem !important;
+}
+%mt-4rem {
+  margin-top: 4rem !important;
+}
+%mb-4rem {
+  margin-bottom: 4rem !important;
+}
+.mt-1rem {
+  @extend %mt-1rem;
+}
+.mt-2rem {
+  @extend %mt-2rem;
+}
+.mt-3rem {
+  @extend %mt-3rem;
+}
+.mt-4rem {
+  @extend %mt-4rem;
+}
+.mb-1rem {
+  @extend %mb-1rem;
+}
+.mb-2rem {
+  @extend %mb-2rem;
+}
+.mb-4rem {
+  @extend %mb-4rem;
+}
+.mtb-1rem {
+  @extend %mt-1rem;
+  @extend %mb-1rem;
+}
+%padding-1rem {
+  padding: 1rem;
+}
+.padding-1rem {
+  @extend %padding-1rem;
+}
+.lh-1rem {
+  line-height: 1rem;
+}
+.lh-2rem {
+  line-height: 2rem;
+}
+.lh-2-5rem {
+  line-height: 2.5rem;
+}
+%is-box-shadow {
+  box-shadow: 0px 4px 15px 0px rgba($black, 0.15);
+  -webkit-box-shadow: 0px 4px 15px 0px rgba($black, 0.15);
+  -moz-box-shadow: 0px 4px 15px 0px rgba($black, 0.15);
+}
+.is-box-shadow {
+  @extend %is-box-shadow;
+}
+.is-img-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image.is-200x200 {
+  height: 200px;
+  width: 200px;
+}
+.is-full {
+  width: 100%;
+}
+.is-vcentered {
+  align-items: center;
+}
+.subtitle-hr-line {
+  display: inline-block;
+  padding-bottom: 15px;
+  position: relative;
+}
+.subtitle-hr-line:before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 5px;
+  left: 0;
+  border-bottom: 4px solid $flip-red;
+}
+/* EO Common Styling */
+
+/* BG Styling */
+.is-gradient {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00c9c9,
+    #006699
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00c9c9,
+    #006699
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.is-flip-red {
+  background-color: $flip-red;
+  color: $white !important;
+}
+.is-flip-blue {
+  background-color: $flip-blue;
+  color: $white !important;
+}
+.is-flip-yellow {
+  background-color: $flip-yellow;
+  color: $black !important;
+}
+.is-light {
+  background-color: $smokewhite;
+  color: #363636;
+}
+.is-white {
+  background-color: $white;
+  color: #0a0a0a;
+}
+/* EO BG Styling */
+
+/* Text Styling */
+.has-text-flip-blue {
+  color: $flip-blue !important;
+}
+.has-text-flip-red {
+  color: $flip-red !important;
+}
+/* EO Text Styling */
+
+/* Border Styling */
+.is-no-border {
+  border: none !important;
+}
+.is-no-border-radius {
+  border-radius: 0px !important;
+}
+/* EO Border Styling */
+
+/* Button Styling */
+/* EO Button Styling */
+
+/* Navigation */
+.navbar {
+  border-bottom: 6px solid $flip-blue;
+  z-index: 999 !important;
+}
+.navbar-burger {
+  height: 4.25rem;
+}
+.navbar-item img {
+  max-height: inherit !important;
+}
+.flip-logo {
+  width: 8rem;
+  height: auto;
+}
+a:hover.navbar-item,
+a.navbar-item.active {
+  background-color: transparent !important;
+  color: $flip-blue !important;
+  font-weight: 600;
+}
+/* EO Navigation */
+
+.flip-team {
+  background: url('../img/flip-team.jpg') no-repeat center;
+  background-size: cover;
+}
+/* Our Culture */
+#ourTenetsWrapper .is-full:hover {
+  @extend %is-box-shadow;
+}
+.benefits-icon {
+  margin-top: -70px;
+}
+.border-bottom-light-green {
+  border-bottom: 4px solid $flip-light-green;
+}
+.border-light-green {
+  border: 3px solid $flip-light-green;
+}
+/* EO Our Culture */
+
+/* Carousel Style */
+div.carousel-item a div.title {
+  color: $flip-blue;
+}
+.carousel .carousel-navigation.is-overlay .carousel-nav-left,
+.carousel .carousel-navigation.is-overlay .carousel-nav-right {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: $white;
+}
+/* EO Carousel Style */
+
+/* Testimonial */
+div.carousel-item p.testimonial {
+  padding: 0 1rem;
+}
+.testimonial-content {
+  padding: 25px 25px 25px 45px;
+  background: $light-grey;
+  position: relative;
+}
+.testimonial-content:after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: $light-grey;
+  position: absolute;
+  top: -10px;
+  left: 45px;
+  transform: rotate(45deg);
+}
+.testimonial-content .testimonial-icon {
+  width: 50px;
+  height: 45px;
+  background: $flip-red;
+  text-align: center;
+  font-size: 25px;
+  color: $white;
+  line-height: 45px;
+  position: absolute;
+  top: 30px;
+  left: -15px;
+}
+.testimonial-content .testimonial-icon:before {
+  content: '';
+  border-bottom: 16px solid #e41212;
+  border-left: 14px solid transparent;
+  position: absolute;
+  top: -16px;
+  left: 1px;
+}
+/* EO Testimonial */
+
+/* Job Openings */
+.job-opening-list .menu-list a:hover {
+  background-color: transparent;
+}
+.job-opening-list .menu-list li a {
+  margin: 0.35rem;
+  padding: 0.75rem;
+}
+.job-opening-list a.is-active {
+  background: $white;
+  border-radius: 4px;
+  @extend %is-box-shadow;
+}
+/* The sticky sidebar */
+.sticky-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+/* EO Job Openings */
+
+/* Footer */
+.footer {
+  padding: 2rem;
+}
+/* Multicoloured Hover Variations */
+.footer #socialFb {
+  background-color: rgba(59, 89, 153, 0.9);
+}
+.footer #socialFb:hover {
+  background-color: rgba(59, 89, 153, 1);
+}
+.footer #socialLi {
+  background-color: rgba(0, 119, 181, 0.9);
+}
+.footer #socialLi:hover {
+  background-color: rgba(0, 119, 181, 1);
+}
+/* EO Multicoloured Hover Variations */
+/* EO Footer */
+
+/* Job Openings Button Styles */
+@media (max-width: 460px) {
+  .multiline-buttons {
+    .button.is-multiline {
+      white-space: normal;
+      padding-top: $lengthy-button-padding;
+      padding-bottom: $lengthy-button-padding;
+    }
+  }
+}
+/* Custom @media */
+/* For Mobile */
+@media screen and (max-width: 768px) {
+  .mt-0rem-touch {
+    margin-top: 0rem !important;
+  }
+}
+
+/* For Tablet */
+@media screen and (min-width: 769px), print {
+  .is-hidden-tablet {
+    display: none !important;
+  }
+}
+
+/* For Tablet Only */
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .is-hidden-tablet-only {
+    display: none !important;
+  }
+}
+
+/* For All Touch Device */
+@media screen and (max-width: 1087px) {
+  .border-bottom-light-green {
+    border-bottom: none !important;
+    border-left: 4px solid $flip-light-green;
+  }
+  .testimonial-content {
+    padding: 25px 40px 25px 45px;
+  }
+}
+
+/* For Desktop */
+@media screen and (min-width: 1088px) {
+  .is-hidden-desktop {
+    display: none !important;
+  }
+}
+
+/* For Desktop Only */
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .is-hidden-desktop-only {
+    display: none !important;
+  }
+}
+
+/* For Widescreen */
+@media screen and (min-width: 1280px) {
+  .is-hidden-widescreen {
+    display: none !important;
+  }
+}
+
+/* For Widescreen Only */
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .is-hidden-widescreen-only {
+    display: none !important;
+  }
+}
+
+/* For FullHD */
+@media screen and (min-width: 1472px) {
+  .is-hidden-fullhd {
+    display: none !important;
+  }
+}
+
+/* EO Custom @media */
